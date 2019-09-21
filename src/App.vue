@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <div class="title">vue-cli处理less样式</div>
+    <button class="btn">按钮</button>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -16,7 +17,8 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less">
+@primary-color:red;
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -24,5 +26,11 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.title{
+  color:@primary-color;
+}
+.btn{
+  color:@primary-color;
 }
 </style>
