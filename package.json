@@ -21,6 +21,7 @@
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
     "less-router": "^2.1.8",
+    "style-resources-loader": "^1.2.1",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {

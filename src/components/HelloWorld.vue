@@ -16,7 +16,7 @@ export default {
 
 
 <style scoped lang="less">
-@import './../base.less';
+
 
 h1 {
   margin: 40px 0 0;
